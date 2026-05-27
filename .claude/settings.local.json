@@ -1,7 +1,20 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(npx electron *)",
+      "Bash(npm -v)",
+      "Bash(npm run *)",
+      "Bash(taskkill //f //im electron.exe)",
+      "Bash(taskkill //f //im node.exe)",
+      "Bash(where python *)",
+      "Bash(node *)",
+      "Bash(DEBUG=* node node_modules/electron/install.js)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:9080)",
+      "Bash(tasklist)",
+      "Bash(xxd node_modules/electron/path.txt)",
+      "Bash(cd /tmp)",
+      "Bash(unzip -o ima-skills.zip -d ima-skills)"
     ],
     "deny": [],
     "ask": []
