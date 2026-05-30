@@ -14,7 +14,8 @@
       "Bash(tasklist)",
       "Bash(xxd node_modules/electron/path.txt)",
       "Bash(cd /tmp)",
-      "Bash(unzip -o ima-skills.zip -d ima-skills)"
+      "Bash(unzip -o ima-skills.zip -d ima-skills)",
+      "Bash(netstat -ano)"
     ],
     "deny": [],
     "ask": []
