@@ -57,7 +57,7 @@ export default {
   },
   data() {
     return {
-      time: 20,
+      time: 3,
     }
   },
   computed: {
@@ -71,7 +71,7 @@ export default {
   watch: {
     isAgreePact(n) {
       if (n) return
-      this.time = 5
+      this.time = 3
       this.startTimeout()
     },
   },
