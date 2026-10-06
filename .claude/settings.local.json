@@ -15,7 +15,17 @@
       "Bash(xxd node_modules/electron/path.txt)",
       "Bash(cd /tmp)",
       "Bash(unzip -o ima-skills.zip -d ima-skills)",
-      "Bash(netstat -ano)"
+      "Bash(netstat -ano)",
+      "Bash(curl -L --connect-timeout 10 -o /tmp/winCodeSign.7z \"https://github.com/electron-userland/electron-builder-binaries/releases/download/winCodeSign-2.6.0/winCodeSign-2.6.0.7z\")",
+      "Bash(curl -s --connect-timeout 5 https://www.baidu.com)",
+      "Bash(curl -s --connect-timeout 5 https://registry.npmmirror.com)",
+      "Bash(curl -s --connect-timeout 5 https://www.npmjs.com)",
+      "Bash(npm config *)",
+      "Bash(curl -sL --connect-timeout 10 \"https://registry.npmmirror.com/-/binary/electron-builder-binaries/winCodeSign-2.6.0/winCodeSign-2.6.0.7z\" -o /tmp/winCodeSign.7z)",
+      "Bash(CSC_IDENTITY_AUTO_DISCOVERY=false npm run *)",
+      "Bash(proxychains npm *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
     ],
     "deny": [],
     "ask": []
